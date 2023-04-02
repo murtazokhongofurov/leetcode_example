@@ -5,3 +5,8 @@ func sortArray(nums []int) []int {
     sort.Ints(nums)
    return nums
 }
+
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        nums.sort()
+        return nums
